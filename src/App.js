@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
 
 function App() {
@@ -12,15 +10,15 @@ function App() {
           <span className="logo__text header__text">DinDin</span>
         </span>
         <nav className="nav">
-          <a href="#" className="nav__link nav__link--active header__text">
+          <button href="#" className="nav__link nav__link--active header__text">
             Cook
-          </a>
-          <a href="#" className="nav__link header__text">
+          </button>
+          <button href="#" className="nav__link header__text">
             Learn
-          </a>
-          <a href="#" className="nav__link header__text">
+          </button>
+          <button href="#" className="nav__link header__text">
             Plan
-          </a>
+          </button>
         </nav>
         <div className="header__menu__wrapper">
           <button className="header__menu__button">
